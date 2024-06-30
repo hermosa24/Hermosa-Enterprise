@@ -1,0 +1,118 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: century;
+  
+}
+body{
+  background: #333;
+}
+header{
+  background-color: #333;
+  color: goldenrod;
+  height: 50px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+header ul li{
+  list-style: none;
+
+}
+header ul li a{
+  text-decoration: none;
+  color: goldenrod;
+}
+main{
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+}
+.welcome{
+ background: linear-gradient(gold, black);
+}
+.welcome img{
+  width: 30%;
+  margin-left: 5%;
+}
+.welcome p{
+  font-size: 20px;
+  font-weight: 400px;
+  font-family: century;
+}
+.welcome button:hover{
+  color: white;
+  background: blue;
+  cursor: pointer;
+}
+/* about us */
+.about-us{
+  background: linear-gradient(whitesmoke, gold);
+  height: 150%;
+ }
+ .about-us img{
+   width: 10em;
+   margin-left: 5%;
+ }
+ .about-us p{
+   font-size: 15px;
+   font-weight: 100px;
+   font-family: century;
+   border: 1px solid black;
+   width: 200px;
+   cursor: pointer;
+ }
+ .about-us p:hover{
+     background-color: #333;
+     color: whitesmoke;
+ }
+ .item{
+  display: flex;
+  justify-content: center;
+ }
+
+ /* services */
+
+ .service{
+  background: linear-gradient(#333,goldenrod , whitesmoke ,#cad80b);
+  
+ }
+ .service h2{
+  color: gold;
+ }
+ .service h3{
+  color: blue;
+ }
+ .service p{
+  font-weight: bolder;
+ }
+ .service img{
+  width: 30%;
+ }
+ .service p:hover{
+  background: #333;
+  color: white;
+ }
+ .service ul li{
+  color: green;
+ }
+ /* etablishment */
+  .establishment{
+    background: linear-gradient(whitesmoke, lightblue);
+  }
+  .establishment p{
+    font-weight: 900;
+  }
+  .establishment img{
+    width: 30%;
+  }
+  .contact{
+    background: linear-gradient(#333,whitesmoke);
+  }
+  /* footer */
+  footer{
+    text-align: center;
+    background: linear-gradient(#333,goldenrod);
+  }
